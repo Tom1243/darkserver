@@ -28,6 +28,7 @@ services:
       ADVERTISE_IP: ${DARKEDEN_IP:-127.0.0.1}
     volumes:
       - ./admin.sh:/opt/darkeden-admin:ro
+      - ../initdb/a-setup.sql:/docker-entrypoint-initdb.d/0-schema.sql:ro
     entrypoint: ["bash", "/opt/darkeden-admin", "address"]
   game:
     image: tiancaiamao/darkeden@sha256:c6f81751aa8b5f9bbd838c959e661f1678923111b0d0b5d623ba3f833ded40b7
