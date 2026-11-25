@@ -1,0 +1,53 @@
+name: darkeden
+services:
+  odk-mysql:
+    image: mysql:5.7.44
+    platform: linux/amd64
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+    command: ["--sql-mode=ONLY_FULL_GROUP_BY,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"]
+    volumes:
+      - world:/var/lib/mysql
+      - ../initdb/a-setup.sql:/docker-entrypoint-initdb.d/0-schema.sql:ro
+      - ../initdb/DARKEDEN.sql:/docker-entrypoint-initdb.d/1-schema.sql:ro
+      - ../initdb/USERINFO.sql:/docker-entrypoint-initdb.d/2-schema.sql:ro
+      - ./fresh-world.sql:/docker-entrypoint-initdb.d/zz-fresh.sql:ro
+      - ./admin.sh:/opt/darkeden-admin:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -h127.0.0.1 -uelcastle -pelca110 DARKEDEN -e 'SELECT IP FROM GameServerInfo'"]
+      interval: 5s
+      timeout: 4s
+      retries: 60
+  configure:
+    image: mysql:5.7.44
+    platform: linux/amd64
+    depends_on:
+      odk-mysql:
+        condition: service_healthy
+    environment:
+      ADVERTISE_IP: ${DARKEDEN_IP:-127.0.0.1}
+    volumes:
+      - ./admin.sh:/opt/darkeden-admin:ro
+    entrypoint: ["bash", "/opt/darkeden-admin", "address"]
+  game:
+    image: tiancaiamao/darkeden@sha256:c6f81751aa8b5f9bbd838c959e661f1678923111b0d0b5d623ba3f833ded40b7
+    platform: linux/amd64
+    init: true
+    depends_on:
+      configure:
+        condition: service_completed_successfully
+    working_dir: /home/darkeden/vs/bin
+    volumes:
+      - ./start.sh:/opt/start-game:ro
+    entrypoint: ["bash", "/opt/start-game"]
+    ports:
+      - "${DARKEDEN_BIND:-127.0.0.1}:9999:9999"
+      - "${DARKEDEN_BIND:-127.0.0.1}:9998:9998"
+      - "${DARKEDEN_BIND:-127.0.0.1}:9997:9997/udp"
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/9998'"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+volumes:
+  world:
