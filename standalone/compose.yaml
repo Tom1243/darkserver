@@ -17,7 +17,8 @@ services:
       test: ["CMD-SHELL", "mysql -h127.0.0.1 -uelcastle -pelca110 DARKEDEN -e 'SELECT IP FROM GameServerInfo'"]
       interval: 5s
       timeout: 4s
-      retries: 60
+      start_period: 5m
+      retries: 120
   configure:
     image: mysql:5.7.44
     platform: linux/amd64
