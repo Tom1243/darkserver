@@ -20,6 +20,10 @@ CMakeFiles/
 cmake_install.cmake
 Makefile.bak
 
+# Self-built deployment secrets and diagnostic output
+standalone/.env.selfbuilt
+standalone/build-logs/
+
 # Compiled files
 *.so
 *.dylib
