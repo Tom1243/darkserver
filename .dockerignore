@@ -1,0 +1,13 @@
+.git
+**/.git
+build/
+bin/
+lib/
+downloads/
+initdb/
+upload/
+release_inputs/
+*.zip
+standalone/build-logs/
+.env*
+**/.env*
