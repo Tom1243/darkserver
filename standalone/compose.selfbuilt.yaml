@@ -57,6 +57,7 @@ services:
     ports:
       - "${DARKEDEN_BIND:-127.0.0.1}:9999:9999/tcp"
       - "${DARKEDEN_BIND:-127.0.0.1}:9998:9998/tcp"
+      - "${DARKEDEN_BIND:-127.0.0.1}:9996:9996/udp"
       - "${DARKEDEN_BIND:-127.0.0.1}:9997:9997/udp"
 
 volumes:
