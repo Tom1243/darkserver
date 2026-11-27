@@ -1,0 +1,64 @@
+# Isolated test stack for the source-built game image.
+# Its project name and explicit database volume keep it separate from the
+# existing `darkeden` deployment and its `world` volume.
+name: darkeden-selfbuilt
+
+services:
+  odk-mysql:
+    image: mysql:5.7.44
+    platform: linux/amd64
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+    command: ["--sql-mode=ONLY_FULL_GROUP_BY,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"]
+    volumes:
+      - selfbuilt_world:/var/lib/mysql
+      - ../initdb/a-setup.sql:/docker-entrypoint-initdb.d/0-schema.sql:ro
+      - ../initdb/DARKEDEN.sql:/docker-entrypoint-initdb.d/1-schema.sql:ro
+      - ../initdb/USERINFO.sql:/docker-entrypoint-initdb.d/2-schema.sql:ro
+      - ./fresh-world.sql:/docker-entrypoint-initdb.d/zz-fresh.sql:ro
+      - ./admin.sh:/opt/darkeden-admin:ro
+    healthcheck:
+      test: ["CMD-SHELL", "bash /opt/darkeden-admin health"]
+      interval: 5s
+      timeout: 4s
+      start_period: 5m
+      retries: 120
+
+  configure:
+    image: mysql:5.7.44
+    platform: linux/amd64
+    depends_on:
+      odk-mysql:
+        condition: service_healthy
+    environment:
+      ADVERTISE_IP: ${DARKEDEN_IP:-127.0.0.1}
+    volumes:
+      - ./admin.sh:/opt/darkeden-admin:ro
+      - ../initdb/a-setup.sql:/docker-entrypoint-initdb.d/0-schema.sql:ro
+    entrypoint: ["bash", "/opt/darkeden-admin", "address"]
+
+  game:
+    image: darkeden-selfbuilt:local
+    platform: linux/amd64
+    pull_policy: never
+    init: true
+    build:
+      context: ..
+      dockerfile: Dockerfile.selfbuilt
+      args:
+        UBUNTU_BASE_IMAGE: ${DARKEDEN_UBUNTU_BASE_IMAGE:-ubuntu:20.04}
+        SOURCE_REVISION: ${DARKEDEN_SOURCE_REVISION:-unknown}
+        SOURCE_TREE_SHA256: ${DARKEDEN_SOURCE_TREE_SHA256:-unknown}
+        SOURCE_PATCH_SHA256: ${DARKEDEN_SOURCE_PATCH_SHA256:-unknown}
+        BUILD_JOBS: ${DARKEDEN_BUILD_JOBS:-2}
+    depends_on:
+      configure:
+        condition: service_completed_successfully
+    ports:
+      - "${DARKEDEN_BIND:-127.0.0.1}:9999:9999/tcp"
+      - "${DARKEDEN_BIND:-127.0.0.1}:9998:9998/tcp"
+      - "${DARKEDEN_BIND:-127.0.0.1}:9997:9997/udp"
+
+volumes:
+  selfbuilt_world:
+    name: darkeden_selfbuilt_world
