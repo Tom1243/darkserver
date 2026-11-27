@@ -1,0 +1,3 @@
+UPDATE DARKEDEN.Player SET Access='DENY' WHERE PlayerID IN ('111111','222222');
+
+UPDATE DARKEDEN.WorldInfo SET WorldName='Dark Eden' WHERE WorldID=1;
