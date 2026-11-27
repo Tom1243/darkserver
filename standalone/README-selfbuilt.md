@@ -2,7 +2,7 @@
 
 This is an opt-in build and test path. It does not change `compose.yaml`, the existing `darkeden` Compose project, or its `world` database volume. The self-built stack uses a different Compose project and the explicit `darkeden_selfbuilt_world` volume.
 
-The image compiles `loginserver`, `sharedserver`, and `gameserver` from the checkout with the existing C++11 setting. It uses Ubuntu 20.04 as both the build and runtime base and retains the current MySQL 5.7 configuration, resource files, server configs, startup order, and client-facing ports. `sharedserver` TCP 9977 stays internal: the game config connects to `127.0.0.1:9977` because all three server processes share one container network namespace.
+The image compiles `loginserver`, `sharedserver`, and `gameserver` from the checkout with the existing C++11 setting. It uses Ubuntu 20.04 as both the build and runtime base and retains the current MySQL 5.7 configuration, resource files, server configs, and startup order. It publishes the configured client ports: 9999/TCP, 9998/TCP, 9996/UDP, and 9997/UDP. `sharedserver` TCP 9977 stays internal: the game config connects to `127.0.0.1:9977` because all three server processes share one container network namespace.
 
 ## Build
 
@@ -42,7 +42,7 @@ The image startup log should show all three services opening their configured po
 docker compose --env-file standalone/.env.selfbuilt -f standalone/compose.selfbuilt.yaml exec odk-mysql bash /opt/darkeden-admin add-player
 ```
 
-Smoke-test the legacy client: connect, select the test character, enter the world, change zones, talk to an NPC, move an item, reload, then log out and back in to confirm persistence. Exercise one guild action to cover the game-to-sharedserver connection. Record the client build, test account/character, result, and relevant logs.
+Forward 9999/TCP, 9998/TCP, 9996/UDP, and 9997/UDP through the router/firewall for remote clients. Smoke-test the legacy client: connect, select the test character, enter the world, change zones, talk to an NPC, move an item, reload, then log out and back in to confirm persistence. Exercise one guild action to cover the game-to-sharedserver connection. Record the client build, test account/character, result, and relevant logs.
 
 ### Testing from a copy of an existing database
 
