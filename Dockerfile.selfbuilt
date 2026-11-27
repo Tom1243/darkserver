@@ -106,7 +106,7 @@ LABEL org.opencontainers.image.title="Dark Eden self-built server" \
       io.darkeden.source-tree-sha256="${SOURCE_TREE_SHA256}" \
       io.darkeden.source-patch-sha256="${SOURCE_PATCH_SHA256}"
 
-EXPOSE 9999/tcp 9998/tcp 9997/udp
+EXPOSE 9999/tcp 9998/tcp 9997/udp 9996/udp
 STOPSIGNAL SIGTERM
 HEALTHCHECK --interval=5s --timeout=3s --retries=60 \
     CMD bash -c 'echo > /dev/tcp/127.0.0.1/9998' || exit 1
