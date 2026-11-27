@@ -33,7 +33,10 @@ add_compile_options(${WARNING_FLAGS})
 
 # Debug 模式
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
-set(CMAKE_CXX_FLAGS_RELEASE "-O2 -DNDEBUG")
+# Keep the legacy assertion expressions enabled in optimized builds. Several
+# resource loaders perform required attribute reads inside Assert(...); adding
+# -DNDEBUG removes those reads entirely and leaves the parsed values unset.
+set(CMAKE_CXX_FLAGS_RELEASE "-O2")
 
 # ============================================================================
 # 查找依赖
