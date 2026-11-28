@@ -1,0 +1,6428 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Great Ruffian Skull.vampire.bin",
+  "treasures": [
+    {
+      "item_chance": 999999,
+      "option_chance": 999999,
+      "item_classes": [
+        {
+          "id": 33,
+          "weight": 20000,
+          "items": [
+            {
+              "type_id": 8,
+              "weight": 17800,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Anti-Sun Pall"
+            },
+            {
+              "type_id": 9,
+              "weight": 17800,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Anti-Sun Cope"
+            },
+            {
+              "type_id": 10,
+              "weight": 31000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Master Pall"
+            },
+            {
+              "type_id": 11,
+              "weight": 31000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Master Cope"
+            },
+            {
+              "type_id": 14,
+              "weight": 1200,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Blood Pall"
+            },
+            {
+              "type_id": 15,
+              "weight": 1200,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 13677,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 269,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 54,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 13677,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 269,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 54,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 13677,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 269,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 54,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 13677,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 269,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 54,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 13677,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 269,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 54,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 13677,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 269,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 54,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9782,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Blood Cope"
+            }
+          ],
+          "label": "VAMPIRE_COAT"
+        },
+        {
+          "id": 32,
+          "weight": 12000,
+          "items": [
+            {
+              "type_id": 6,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Death Star"
+            },
+            {
+              "type_id": 7,
+              "weight": 42500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Amulet of Omen"
+            },
+            {
+              "type_id": 8,
+              "weight": 31500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Black Ankh"
+            },
+            {
+              "type_id": 9,
+              "weight": 10500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Wing of the Dead"
+            },
+            {
+              "type_id": 11,
+              "weight": 500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Evil Eye"
+            }
+          ],
+          "label": "VAMPIRE_NECKLACE"
+        },
+        {
+          "id": 31,
+          "weight": 12000,
+          "items": [
+            {
+              "type_id": 5,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Blue Monoeye"
+            },
+            {
+              "type_id": 6,
+              "weight": 42500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Blue Water"
+            },
+            {
+              "type_id": 7,
+              "weight": 31500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Viper Bracelet"
+            },
+            {
+              "type_id": 8,
+              "weight": 10500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "the Abyss"
+            },
+            {
+              "type_id": 10,
+              "weight": 500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Keen Bracelet"
+            }
+          ],
+          "label": "VAMPIRE_BRACELET"
+        },
+        {
+          "id": 30,
+          "weight": 12000,
+          "items": [
+            {
+              "type_id": 6,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Blood Sucker"
+            },
+            {
+              "type_id": 7,
+              "weight": 42500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Unholy Shield"
+            },
+            {
+              "type_id": 8,
+              "weight": 31500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Ring of Skulls"
+            },
+            {
+              "type_id": 9,
+              "weight": 10500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Spider Eyes"
+            },
+            {
+              "type_id": 11,
+              "weight": 500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Fenrir Ring"
+            }
+          ],
+          "label": "VAMPIRE_RING"
+        },
+        {
+          "id": 42,
+          "weight": 12000,
+          "items": [
+            {
+              "type_id": 6,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Bloody Feast"
+            },
+            {
+              "type_id": 7,
+              "weight": 42500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Earring of Eternal Life"
+            },
+            {
+              "type_id": 8,
+              "weight": 31500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "The Cats Eyes"
+            },
+            {
+              "type_id": 9,
+              "weight": 10500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Skull of Destruction"
+            },
+            {
+              "type_id": 11,
+              "weight": 500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "The Oath of Harmony"
+            }
+          ],
+          "label": "VAMPIRE_EARRING"
+        },
+        {
+          "id": 45,
+          "weight": 12000,
+          "items": [
+            {
+              "type_id": 6,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Ing"
+            },
+            {
+              "type_id": 7,
+              "weight": 42500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Othel"
+            },
+            {
+              "type_id": 8,
+              "weight": 31500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Odal"
+            },
+            {
+              "type_id": 9,
+              "weight": 10500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Daeg"
+            },
+            {
+              "type_id": 11,
+              "weight": 500,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 8850,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 120,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 30,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 8850,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 120,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 30,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 8850,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 120,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 30,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 8850,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 120,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 30,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 3933,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 67,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 7898,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 96,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 6,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 45,
+                  "weight": 7898,
+                  "label": "DEF+3"
+                },
+                {
+                  "id": 46,
+                  "weight": 96,
+                  "label": "DEF+4"
+                },
+                {
+                  "id": 47,
+                  "weight": 6,
+                  "label": "DEF+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 7898,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 96,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 6,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 55,
+                  "weight": 7898,
+                  "label": "PRO+3"
+                },
+                {
+                  "id": 56,
+                  "weight": 96,
+                  "label": "PRO+4"
+                },
+                {
+                  "id": 57,
+                  "weight": 6,
+                  "label": "PRO+5"
+                },
+                {
+                  "id": 76,
+                  "weight": 7898,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 77,
+                  "weight": 102,
+                  "label": "VIS+3"
+                },
+                {
+                  "id": 80,
+                  "weight": 6383,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 593,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 24,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 6383,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 593,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 24,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 176,
+                  "weight": 2999,
+                  "label": "LUCK+2"
+                },
+                {
+                  "id": 177,
+                  "weight": 1,
+                  "label": "LUCK+3"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Is"
+            }
+          ],
+          "label": "VAMPIRE_AMULET"
+        },
+        {
+          "id": 44,
+          "weight": 20000,
+          "items": [
+            {
+              "type_id": 12,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 12700,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 250,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 50,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 12700,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 250,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 50,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 11640,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 300,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 60,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 12700,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 250,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 50,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 4800,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 200,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 9872,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 120,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 8,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 4988,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 10,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 2,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9872,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 80,
+                  "weight": 7898,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 96,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 6,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 7898,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 96,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 6,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Zamadar"
+            },
+            {
+              "type_id": 13,
+              "weight": 74000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 12700,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 250,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 50,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 12700,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 250,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 50,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 11640,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 300,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 60,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 12700,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 250,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 50,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 4800,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 200,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 9872,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 120,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 8,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 4988,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 10,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 2,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9872,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 80,
+                  "weight": 7898,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 96,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 6,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 7898,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 96,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 6,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Katar"
+            },
+            {
+              "type_id": 14,
+              "weight": 10000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 12700,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 250,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 50,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 12700,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 250,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 50,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 11640,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 300,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 60,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 12700,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 250,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 50,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 4800,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 200,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 9872,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 120,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 8,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 4988,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 10,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 2,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9872,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 80,
+                  "weight": 7898,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 96,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 6,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 7898,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 96,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 6,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Amemet's Craw"
+            },
+            {
+              "type_id": 16,
+              "weight": 1000,
+              "options": [
+                {
+                  "id": 3,
+                  "weight": 12700,
+                  "label": "STR+3"
+                },
+                {
+                  "id": 4,
+                  "weight": 250,
+                  "label": "STR+4"
+                },
+                {
+                  "id": 5,
+                  "weight": 50,
+                  "label": "STR+5"
+                },
+                {
+                  "id": 8,
+                  "weight": 12700,
+                  "label": "DEX+3"
+                },
+                {
+                  "id": 9,
+                  "weight": 250,
+                  "label": "DEX+4"
+                },
+                {
+                  "id": 10,
+                  "weight": 50,
+                  "label": "DEX+5"
+                },
+                {
+                  "id": 13,
+                  "weight": 11640,
+                  "label": "INT+3"
+                },
+                {
+                  "id": 14,
+                  "weight": 300,
+                  "label": "INT+4"
+                },
+                {
+                  "id": 15,
+                  "weight": 60,
+                  "label": "INT+5"
+                },
+                {
+                  "id": 18,
+                  "weight": 12700,
+                  "label": "HP+3"
+                },
+                {
+                  "id": 19,
+                  "weight": 250,
+                  "label": "HP+4"
+                },
+                {
+                  "id": 20,
+                  "weight": 50,
+                  "label": "HP+5"
+                },
+                {
+                  "id": 27,
+                  "weight": 4800,
+                  "label": "HPSTL+2"
+                },
+                {
+                  "id": 28,
+                  "weight": 200,
+                  "label": "HPSTL+3"
+                },
+                {
+                  "id": 40,
+                  "weight": 9872,
+                  "label": "TOHIT+3"
+                },
+                {
+                  "id": 41,
+                  "weight": 120,
+                  "label": "TOHIT+4"
+                },
+                {
+                  "id": 42,
+                  "weight": 8,
+                  "label": "TOHIT+5"
+                },
+                {
+                  "id": 50,
+                  "weight": 4988,
+                  "label": "DAM+3"
+                },
+                {
+                  "id": 51,
+                  "weight": 10,
+                  "label": "DAM+4"
+                },
+                {
+                  "id": 52,
+                  "weight": 2,
+                  "label": "DAM+5"
+                },
+                {
+                  "id": 60,
+                  "weight": 9872,
+                  "label": "DUR+3"
+                },
+                {
+                  "id": 61,
+                  "weight": 120,
+                  "label": "DUR+4"
+                },
+                {
+                  "id": 62,
+                  "weight": 8,
+                  "label": "DUR+5"
+                },
+                {
+                  "id": 80,
+                  "weight": 7898,
+                  "label": "ASPD+3"
+                },
+                {
+                  "id": 81,
+                  "weight": 96,
+                  "label": "ASPD+4"
+                },
+                {
+                  "id": 82,
+                  "weight": 6,
+                  "label": "ASPD+5"
+                },
+                {
+                  "id": 85,
+                  "weight": 7898,
+                  "label": "CRI+3"
+                },
+                {
+                  "id": 86,
+                  "weight": 96,
+                  "label": "CRI+4"
+                },
+                {
+                  "id": 87,
+                  "weight": 6,
+                  "label": "CRI+5"
+                },
+                {
+                  "id": 184,
+                  "weight": 2999,
+                  "label": "ATTR+2"
+                },
+                {
+                  "id": 185,
+                  "weight": 1,
+                  "label": "ATTR+3"
+                }
+              ],
+              "label": "Zagan"
+            }
+          ],
+          "label": "VAMPIRE_WEAPON"
+        }
+      ]
+    }
+  ]
+}

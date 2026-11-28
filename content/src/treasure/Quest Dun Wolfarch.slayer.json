@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Quest Dun Wolfarch.slayer.bin",
+  "treasures": [
+    {
+      "item_chance": 999999,
+      "option_chance": 0,
+      "item_classes": [
+        {
+          "id": 34,
+          "weight": 100000,
+          "items": [
+            {
+              "type_id": 39,
+              "weight": 100000,
+              "options": [],
+              "label": "Dun Wolfarch Head"
+            }
+          ],
+          "label": "SKULL"
+        }
+      ]
+    }
+  ]
+}

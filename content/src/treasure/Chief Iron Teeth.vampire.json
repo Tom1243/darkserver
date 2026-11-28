@@ -1,0 +1,2212 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Chief Iron Teeth.vampire.bin",
+  "treasures": [
+    {
+      "item_chance": 25000,
+      "option_chance": 60000,
+      "item_classes": [
+        {
+          "id": 33,
+          "weight": 10000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 14000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 14000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 14000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 14000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 15000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 15000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Swing Coat"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 14000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 14000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 14000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 14000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 15000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 15000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Body Suit"
+            }
+          ],
+          "label": "VAMPIRE_COAT"
+        },
+        {
+          "id": 32,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8250,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3750,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8250,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3750,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8250,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3750,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8250,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3750,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7150,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2850,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7150,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2850,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 2000,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 2000,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5500,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2500,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Boomerang Necklace"
+            },
+            {
+              "type_id": 1,
+              "weight": 35000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8850,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3150,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8850,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3150,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8850,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3150,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8850,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3150,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7550,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2450,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7550,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2450,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4400,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1600,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4400,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 1600,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5900,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2100,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4400,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1600,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4400,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1600,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Skull Necklace"
+            },
+            {
+              "type_id": 2,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 10800,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 1200,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 10800,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 1200,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 10800,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 1200,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 10800,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 1200,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8350,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1650,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 8350,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 1650,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 5200,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 800,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 5200,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 800,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 6200,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 1800,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 5200,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 800,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 5200,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 800,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Cuspid Necklace"
+            }
+          ],
+          "label": "VAMPIRE_NECKLACE"
+        },
+        {
+          "id": 31,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8250,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3750,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8250,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3750,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8250,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3750,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8250,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3750,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7150,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2850,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7150,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2850,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 2000,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 2000,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5500,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2500,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Lace Bracelet"
+            },
+            {
+              "type_id": 1,
+              "weight": 35000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8850,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3150,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8850,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3150,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8850,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3150,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8850,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3150,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7550,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2450,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7550,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2450,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4400,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1600,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4400,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 1600,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5900,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2100,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4400,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1600,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4400,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1600,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Armorial Bracelet"
+            },
+            {
+              "type_id": 2,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 10800,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 1200,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 10800,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 1200,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 10800,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 1200,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 10800,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 1200,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8350,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1650,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 8350,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 1650,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 5200,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 800,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 5200,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 800,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 6200,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 1800,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 5200,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 800,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 5200,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 800,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Jewel Bracelet"
+            }
+          ],
+          "label": "VAMPIRE_BRACELET"
+        },
+        {
+          "id": 30,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8250,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3750,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8250,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3750,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8250,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3750,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8250,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3750,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7150,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2850,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7150,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2850,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 2000,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 2000,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5500,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2500,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Iron Ring"
+            },
+            {
+              "type_id": 1,
+              "weight": 35000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8850,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3150,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8850,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3150,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8850,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3150,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8850,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3150,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7550,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2450,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7550,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2450,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4400,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1600,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4400,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 1600,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5900,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2100,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4400,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1600,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4400,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1600,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Silver Ring"
+            },
+            {
+              "type_id": 2,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 10800,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 1200,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 10800,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 1200,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 10800,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 1200,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 10800,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 1200,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8350,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1650,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 8350,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 1650,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 5200,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 800,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 5200,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 800,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 6200,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 1800,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 5200,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 800,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 5200,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 800,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Winkle Ring"
+            }
+          ],
+          "label": "VAMPIRE_RING"
+        },
+        {
+          "id": 42,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8250,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3750,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8250,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3750,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8250,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3750,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8250,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3750,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7150,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2850,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7150,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2850,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 2000,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 2000,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5500,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2500,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Bronze Earring"
+            },
+            {
+              "type_id": 1,
+              "weight": 35000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8850,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3150,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8850,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3150,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8850,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3150,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8850,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3150,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7550,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2450,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7550,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2450,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4400,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1600,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4400,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 1600,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5900,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2100,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4400,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1600,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4400,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1600,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Silver Earring"
+            },
+            {
+              "type_id": 2,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 10800,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 1200,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 10800,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 1200,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 10800,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 1200,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 10800,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 1200,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8350,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1650,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 8350,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 1650,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 5200,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 800,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 5200,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 800,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 6200,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 1800,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 5200,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 800,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 5200,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 800,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Gold Earring"
+            }
+          ],
+          "label": "VAMPIRE_EARRING"
+        },
+        {
+          "id": 45,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8250,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3750,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8250,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3750,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8250,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3750,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8250,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3750,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7150,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2850,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7150,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2850,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 2000,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 2000,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5500,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2500,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Rad"
+            },
+            {
+              "type_id": 1,
+              "weight": 35000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8850,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3150,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 8850,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3150,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 8850,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3150,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 8850,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3150,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7550,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2450,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 7550,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 2450,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4400,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1600,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 4400,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 1600,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 5900,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 2100,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 4400,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1600,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 4400,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1600,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Ken"
+            },
+            {
+              "type_id": 2,
+              "weight": 15000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 10800,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 1200,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 10800,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 1200,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 10800,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 1200,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 10800,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 1200,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8350,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1650,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 43,
+                  "weight": 8350,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 44,
+                  "weight": 1650,
+                  "label": "DEF+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 5200,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 800,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 53,
+                  "weight": 5200,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 54,
+                  "weight": 800,
+                  "label": "PRO+2"
+                },
+                {
+                  "id": 75,
+                  "weight": 6200,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 76,
+                  "weight": 1800,
+                  "label": "VIS+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 5200,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 800,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 5200,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 800,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Jera"
+            }
+          ],
+          "label": "VAMPIRE_AMULET"
+        },
+        {
+          "id": 44,
+          "weight": 15000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 44000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 9000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 4000,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 9000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 4000,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 9000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 4000,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 9000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 4000,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 3000,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 3500,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1500,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 58,
+                  "weight": 9000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 59,
+                  "weight": 4000,
+                  "label": "DUR+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 7000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 3000,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 7000,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 3000,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Knuckle Part"
+            },
+            {
+              "type_id": 1,
+              "weight": 36000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 9500,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 3500,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 9500,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 3500,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 9500,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 3500,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 9500,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 3500,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 7500,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 2500,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 3750,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 1250,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 58,
+                  "weight": 9500,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 59,
+                  "weight": 3500,
+                  "label": "DUR+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 7500,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 2500,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 7500,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 2500,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Thumb Grab"
+            },
+            {
+              "type_id": 2,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 11000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 2,
+                  "weight": 2000,
+                  "label": "STR+2"
+                },
+                {
+                  "id": 6,
+                  "weight": 11000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 7,
+                  "weight": 2000,
+                  "label": "DEX+2"
+                },
+                {
+                  "id": 11,
+                  "weight": 11000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 12,
+                  "weight": 2000,
+                  "label": "INT+2"
+                },
+                {
+                  "id": 16,
+                  "weight": 11000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 17,
+                  "weight": 2000,
+                  "label": "HP+2"
+                },
+                {
+                  "id": 38,
+                  "weight": 8500,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 39,
+                  "weight": 1500,
+                  "label": "TOHIT+2"
+                },
+                {
+                  "id": 48,
+                  "weight": 4250,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 49,
+                  "weight": 750,
+                  "label": "DAM+2"
+                },
+                {
+                  "id": 58,
+                  "weight": 11000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 59,
+                  "weight": 2000,
+                  "label": "DUR+2"
+                },
+                {
+                  "id": 78,
+                  "weight": 8500,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 79,
+                  "weight": 1500,
+                  "label": "ASPD+2"
+                },
+                {
+                  "id": 83,
+                  "weight": 8500,
+                  "label": "CRI+1"
+                },
+                {
+                  "id": 84,
+                  "weight": 1500,
+                  "label": "CRI+2"
+                }
+              ],
+              "label": "Force Knuckle"
+            }
+          ],
+          "label": "VAMPIRE_WEAPON"
+        }
+      ]
+    },
+    {
+      "item_chance": 999999,
+      "option_chance": 0,
+      "item_classes": [
+        {
+          "id": 34,
+          "weight": 100000,
+          "items": [
+            {
+              "type_id": 19,
+              "weight": 100000,
+              "options": [],
+              "label": "Iron Teeth Head"
+            }
+          ],
+          "label": "SKULL"
+        }
+      ]
+    }
+  ]
+}

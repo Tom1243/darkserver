@@ -1,0 +1,889 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Class1.vampire.bin",
+  "treasures": [
+    {
+      "item_chance": 40000,
+      "option_chance": 40000,
+      "item_classes": [
+        {
+          "id": 44,
+          "weight": 18000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 13000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 13000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 13000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 13000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 13000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Knuckle Part"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 13000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 13000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 13000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 13000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 13000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Thumb Grab"
+            }
+          ],
+          "label": "VAMPIRE_WEAPON"
+        },
+        {
+          "id": 33,
+          "weight": 2000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 14000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 14000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 14000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 14000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 15000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 15000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Swing Coat"
+            },
+            {
+              "type_id": 1,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 14000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 14000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 14000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 14000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 15000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 15000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Body Suit"
+            }
+          ],
+          "label": "VAMPIRE_COAT"
+        },
+        {
+          "id": 32,
+          "weight": 16000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Boomerang Necklace"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Skull Necklace"
+            }
+          ],
+          "label": "VAMPIRE_NECKLACE"
+        },
+        {
+          "id": 42,
+          "weight": 16000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Bronze Earring"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Silver Earring"
+            }
+          ],
+          "label": "VAMPIRE_EARRING"
+        },
+        {
+          "id": 30,
+          "weight": 16000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Iron Ring"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Silver Ring"
+            }
+          ],
+          "label": "VAMPIRE_RING"
+        },
+        {
+          "id": 45,
+          "weight": 16000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Rad"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Ken"
+            }
+          ],
+          "label": "VAMPIRE_AMULET"
+        },
+        {
+          "id": 31,
+          "weight": 16000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Lace Bracelet"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 10000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 6000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 8000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 6000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 6000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Armorial Bracelet"
+            }
+          ],
+          "label": "VAMPIRE_BRACELET"
+        },
+        {
+          "id": 36,
+          "weight": 0,
+          "items": [],
+          "label": "SERUM"
+        },
+        {
+          "id": 37,
+          "weight": 0,
+          "items": [],
+          "label": "VAMPIRE_ETC"
+        },
+        {
+          "id": 41,
+          "weight": 0,
+          "items": [],
+          "label": "EVENT_STAR"
+        }
+      ]
+    }
+  ]
+}

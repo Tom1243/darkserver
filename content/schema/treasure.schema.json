@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:darkeden:content:treasure:1",
+  "title": "Dark Eden treasure resource source",
+  "description": "Ordered, lossless development representation of the legacy treasure BIN format. Weights are preserved verbatim and are never normalized.",
+  "type": "object",
+  "required": ["$schema", "format", "schema_version", "source_file", "treasures"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "format": {"const": "darkeden-treasure"},
+    "schema_version": {"const": 1},
+    "source_file": {"type": "string", "pattern": "^[^/\\\\]+\\.bin$"},
+    "labels": {
+      "type": "object",
+      "properties": {"item_class": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "treasures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item_chance", "option_chance", "item_classes"],
+        "properties": {
+          "item_chance": {"$ref": "#/$defs/i32"},
+          "option_chance": {"$ref": "#/$defs/i32"},
+          "item_classes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "weight", "items"],
+              "properties": {
+                "id": {"type": "integer", "minimum": 0, "maximum": 89},
+                "label": {"type": "string", "description": "Optional display label; not compiled into the legacy resource."},
+                "weight": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["type_id", "weight", "options"],
+                    "properties": {
+                      "type_id": {"type": "integer", "minimum": 0, "maximum": 255},
+                      "label": {"type": "string", "description": "Optional display label; not compiled into the legacy resource."},
+                      "weight": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+                      "options": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["id", "weight"],
+                          "properties": {
+                            "id": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+                            "label": {"type": "string", "description": "Optional display label; not compiled into the legacy resource."},
+                            "weight": {"type": "integer", "minimum": 0, "maximum": 2147483647}
+                          },
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "i32": {"type": "integer", "minimum": -2147483648, "maximum": 2147483647}
+  }
+}

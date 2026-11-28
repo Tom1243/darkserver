@@ -29,7 +29,8 @@ COMPOSE=(docker compose "${COMPOSE_ENV[@]}" -f "$COMPOSE_FILE")
 cd "$REPO_ROOT"
 SOURCE_REVISION=$(git rev-parse HEAD 2>/dev/null || printf 'no-git-metadata')
 SOURCE_TREE_SHA256=$(
-    find CMakeLists.txt src data docker/conf standalone/start.sh Dockerfile.selfbuilt \
+    find CMakeLists.txt src data docker/conf standalone/start.sh standalone/compose.selfbuilt.yaml \
+        standalone/build-selfbuilt.sh Dockerfile.selfbuilt content_tools content \
         -type f -print0 2>/dev/null \
         | sort -z \
         | xargs -0 sha256sum \
@@ -37,12 +38,14 @@ SOURCE_TREE_SHA256=$(
         | awk '{print $1}'
 )
 SOURCE_PATCH_SHA256=$(
-    git diff HEAD --binary -- CMakeLists.txt src data docker/conf standalone/start.sh Dockerfile.selfbuilt 2>/dev/null \
+    git diff HEAD --binary -- CMakeLists.txt src data docker/conf standalone/start.sh \
+        standalone/compose.selfbuilt.yaml standalone/build-selfbuilt.sh Dockerfile.selfbuilt content_tools content 2>/dev/null \
         | sha256sum \
         | awk '{print $1}'
 )
 SOURCE_DIRTY=false
-if [[ -n $(git status --porcelain -- CMakeLists.txt src data docker/conf standalone/start.sh Dockerfile.selfbuilt 2>/dev/null || true) ]]; then
+if [[ -n $(git status --porcelain -- CMakeLists.txt src data docker/conf standalone/start.sh \
+        standalone/compose.selfbuilt.yaml standalone/build-selfbuilt.sh Dockerfile.selfbuilt content_tools content 2>/dev/null || true) ]]; then
     SOURCE_DIRTY=true
 fi
 
@@ -59,7 +62,8 @@ export DARKEDEN_SOURCE_PATCH_SHA256=$SOURCE_PATCH_SHA256
     printf 'Relevant worktree dirty: %s\n' "$SOURCE_DIRTY"
     printf 'Docker: '; docker --version
     printf 'Compose: '; docker compose version
-    printf 'Base image: selected by Compose env file (default ubuntu:20.04)\n'
+    printf 'Engine base image: selected by Compose env file (default ubuntu:20.04)\n'
+    printf 'Content Python base image: selected by Compose env file (default python:3.12.8-slim-bookworm)\n'
     printf '\n--- Docker build output ---\n'
 } | tee "$LOG_FILE"
 
@@ -79,5 +83,8 @@ fi
         --format 'image_id={{.Id}}{{"\n"}}labels={{json .Config.Labels}}'
     docker run --rm --entrypoint cat darkeden-selfbuilt:local \
         /usr/share/darkeden-build/build-info.txt
+    printf '\n--- Content build provenance ---\n'
+    docker run --rm --entrypoint cat darkeden-selfbuilt:local \
+        /usr/share/darkeden-build/content-build-info.txt
     printf '\nBuild succeeded. Full log: %s\n' "$LOG_FILE"
 } 2>&1 | tee -a "$LOG_FILE"

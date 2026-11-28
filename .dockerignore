@@ -5,6 +5,7 @@ bin/
 lib/
 downloads/
 initdb/
+content/reference/
 upload/
 release_inputs/
 *.zip

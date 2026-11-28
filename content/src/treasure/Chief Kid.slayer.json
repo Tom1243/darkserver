@@ -1,0 +1,2198 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Chief Kid.slayer.bin",
+  "treasures": [
+    {
+      "item_chance": 24000,
+      "option_chance": 80000,
+      "item_classes": [
+        {
+          "id": 14,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Light Sword"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "War Sword"
+            }
+          ],
+          "label": "SWORD"
+        },
+        {
+          "id": 15,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Cutlass"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Long Shamsheer"
+            }
+          ],
+          "label": "BLADE"
+        },
+        {
+          "id": 21,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "MD-4"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "IS-100 ZIG"
+            }
+          ],
+          "label": "SMG"
+        },
+        {
+          "id": 22,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "MK-74 Vicious"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "P-1A POLAN"
+            }
+          ],
+          "label": "AR"
+        },
+        {
+          "id": 20,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "MT-10 Shooting Star"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "MT-21 Giant Star"
+            }
+          ],
+          "label": "SG"
+        },
+        {
+          "id": 23,
+          "weight": 4000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "X-31M Milano"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "X-55 V2"
+            }
+          ],
+          "label": "SR"
+        },
+        {
+          "id": 17,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Silver Cross"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Latin Cross"
+            }
+          ],
+          "label": "CROSS"
+        },
+        {
+          "id": 35,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Iron Mace"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Silver Mace"
+            }
+          ],
+          "label": "MACE"
+        },
+        {
+          "id": 19,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Hood"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Iron Helmet"
+            }
+          ],
+          "label": "HELM"
+        },
+        {
+          "id": 11,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Flak Jacket M"
+            },
+            {
+              "type_id": 1,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Flak Jacket W"
+            }
+          ],
+          "label": "COAT"
+        },
+        {
+          "id": 26,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Light Belt"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Belt"
+            }
+          ],
+          "label": "BELT"
+        },
+        {
+          "id": 18,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Black Glove"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Bronze Gauntlet"
+            }
+          ],
+          "label": "GLOVE"
+        },
+        {
+          "id": 12,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Slacks M"
+            },
+            {
+              "type_id": 1,
+              "weight": 50000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Slacks W"
+            }
+          ],
+          "label": "TROUSER"
+        },
+        {
+          "id": 13,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Light Shoes"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Leather Shoes"
+            }
+          ],
+          "label": "SHOES"
+        },
+        {
+          "id": 16,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Round Shield"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Bronze Shield"
+            }
+          ],
+          "label": "SHIELD"
+        },
+        {
+          "id": 10,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Cross Pendant"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Emerald Pendant"
+            }
+          ],
+          "label": "NECKLACE"
+        },
+        {
+          "id": 9,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Metal Bracelet"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Steel Bracelet"
+            }
+          ],
+          "label": "BRACELET"
+        },
+        {
+          "id": 8,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Bronze Ring"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Black Ring"
+            }
+          ],
+          "label": "RING"
+        },
+        {
+          "id": 1,
+          "weight": 34000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 20000,
+              "options": [],
+              "label": "Mini Healing Ampul"
+            },
+            {
+              "type_id": 1,
+              "weight": 15000,
+              "options": [],
+              "label": "Light Healing Ampul"
+            },
+            {
+              "type_id": 2,
+              "weight": 10000,
+              "options": [],
+              "label": "Half Healing Ampul"
+            },
+            {
+              "type_id": 3,
+              "weight": 4000,
+              "options": [],
+              "label": "Large Healing Ampul"
+            },
+            {
+              "type_id": 4,
+              "weight": 1000,
+              "options": [],
+              "label": "Full Healing Ampul"
+            },
+            {
+              "type_id": 5,
+              "weight": 20000,
+              "options": [],
+              "label": "Mini Mana Ampul"
+            },
+            {
+              "type_id": 6,
+              "weight": 15000,
+              "options": [],
+              "label": "Light Mana Ampul"
+            },
+            {
+              "type_id": 7,
+              "weight": 10000,
+              "options": [],
+              "label": "Half Mana Ampul"
+            },
+            {
+              "type_id": 8,
+              "weight": 4000,
+              "options": [],
+              "label": "Large Mana Ampul"
+            },
+            {
+              "type_id": 9,
+              "weight": 1000,
+              "options": [],
+              "label": "Full Mana Ampul"
+            }
+          ],
+          "label": "POTION"
+        }
+      ]
+    },
+    {
+      "item_chance": 999999,
+      "option_chance": 0,
+      "item_classes": [
+        {
+          "id": 34,
+          "weight": 100000,
+          "items": [
+            {
+              "type_id": 6,
+              "weight": 100000,
+              "options": [],
+              "label": "Kid Head"
+            }
+          ],
+          "label": "SKULL"
+        }
+      ]
+    }
+  ]
+}

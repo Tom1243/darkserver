@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Rudolf2.vampire.bin",
+  "treasures": [
+    {
+      "item_chance": 30000,
+      "option_chance": 0,
+      "item_classes": [
+        {
+          "id": 41,
+          "weight": 25000,
+          "items": [
+            {
+              "type_id": 7,
+              "weight": 52000,
+              "options": [],
+              "label": "Blue Drop"
+            },
+            {
+              "type_id": 12,
+              "weight": 20000,
+              "options": [],
+              "label": "Blue Bird"
+            },
+            {
+              "type_id": 15,
+              "weight": 28000,
+              "options": [],
+              "label": "Blue Drop 2"
+            }
+          ],
+          "label": "EVENT_STAR"
+        },
+        {
+          "id": 48,
+          "weight": 47000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 15000,
+              "options": [],
+              "label": "Skyblue Firecracker"
+            },
+            {
+              "type_id": 3,
+              "weight": 15000,
+              "options": [],
+              "label": "Dragon Firecracker"
+            },
+            {
+              "type_id": 8,
+              "weight": 21000,
+              "options": [],
+              "label": "Orange Wide Firecracker"
+            },
+            {
+              "type_id": 10,
+              "weight": 21000,
+              "options": [],
+              "label": "Green Running Wide Firecracker"
+            },
+            {
+              "type_id": 13,
+              "weight": 28000,
+              "options": [],
+              "label": "Storm Firecracker"
+            }
+          ],
+          "label": "EVENT_ETC"
+        },
+        {
+          "id": 70,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 100000,
+              "options": [],
+              "label": "Megaphone 1"
+            }
+          ],
+          "label": "EFFECT_ITEM"
+        },
+        {
+          "id": 55,
+          "weight": 13000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 62000,
+              "options": [],
+              "label": "Resurrection Scroll"
+            },
+            {
+              "type_id": 1,
+              "weight": 38000,
+              "options": [],
+              "label": "Elixir Scroll"
+            }
+          ],
+          "label": "RESURRECT_ITEM"
+        },
+        {
+          "id": 37,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 2,
+              "weight": 100000,
+              "options": [],
+              "label": "Slayer Translator"
+            }
+          ],
+          "label": "VAMPIRE_ETC"
+        },
+        {
+          "id": 39,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 2,
+              "weight": 100000,
+              "options": [],
+              "label": "Hyper Seal"
+            }
+          ],
+          "label": "VAMPIRE_PORTAL_ITEM"
+        }
+      ]
+    }
+  ]
+}

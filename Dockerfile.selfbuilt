@@ -1,6 +1,32 @@
 # Self-built Dark Eden image. The server binaries are compiled from this
 # checkout; no Dark Eden game image is used as a build or runtime base.
 ARG UBUNTU_BASE_IMAGE=ubuntu:20.04
+ARG PYTHON_BASE_IMAGE=python:3.12.8-slim-bookworm
+
+# Content compilation is an independent build stage. Its inputs are only the
+# toolkit and authored JSON, so loot edits do not invalidate the C++ build.
+FROM ${PYTHON_BASE_IMAGE} AS content-builder
+
+ARG PYTHON_BASE_IMAGE=python:3.12.8-slim-bookworm
+WORKDIR /content
+COPY content_tools/__init__.py content_tools/__main__.py \
+    content_tools/catalog.py content_tools/treasure.py ./content_tools/
+COPY content/src/treasure/ ./content/src/treasure/
+COPY content/schema/ ./content/schema/
+COPY content/catalogs/ ./content/catalogs/
+
+RUN python3 -m content_tools compile \
+        --source /content/content/src/treasure \
+        --output /compiled/data \
+        --catalog /content/content/catalogs/treasure-reference-ids.json \
+        --schema /content/content/schema/treasure.schema.json \
+    && test "$(find /compiled/data -maxdepth 1 -name '*.bin' | wc -l)" -eq 249
+
+RUN printf 'python_base_image=%s\npython_version=%s\n' \
+        "${PYTHON_BASE_IMAGE}" "$(python3 -c 'import platform; print(platform.python_version())')" \
+        >> /compiled/data/content-build-info.txt \
+    && rm /compiled/data/content-treasure-files.json \
+    && mv /compiled/data/content-build-info.txt /compiled/content-build-info.txt
 
 FROM ${UBUNTU_BASE_IMAGE} AS builder
 
@@ -82,6 +108,11 @@ COPY --from=builder /source/bin/loginserver /source/bin/sharedserver \
 COPY --from=builder /build-provenance/build-info.txt \
     /usr/share/darkeden-build/build-info.txt
 COPY data/ /home/darkeden/vs/data/
+# Overlay compiled treasure files after reference resources. All other
+# resource files remain the original files from data/.
+COPY --from=content-builder /compiled/data/ /home/darkeden/vs/data/
+COPY --from=content-builder /compiled/content-build-info.txt \
+    /usr/share/darkeden-build/content-build-info.txt
 COPY docker/conf/ /home/darkeden/vs/conf/
 COPY standalone/start.sh /opt/darkeden-start.sh
 

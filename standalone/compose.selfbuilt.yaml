@@ -46,6 +46,7 @@ services:
       context: ..
       dockerfile: Dockerfile.selfbuilt
       args:
+        PYTHON_BASE_IMAGE: ${DARKEDEN_PYTHON_BASE_IMAGE:-python:3.12.8-slim-bookworm}
         UBUNTU_BASE_IMAGE: ${DARKEDEN_UBUNTU_BASE_IMAGE:-ubuntu:20.04}
         SOURCE_REVISION: ${DARKEDEN_SOURCE_REVISION:-unknown}
         SOURCE_TREE_SHA256: ${DARKEDEN_SOURCE_TREE_SHA256:-unknown}

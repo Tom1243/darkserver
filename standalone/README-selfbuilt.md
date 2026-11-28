@@ -2,7 +2,9 @@
 
 This is an opt-in build and test path. It does not change `compose.yaml`, the existing `darkeden` Compose project, or its `world` database volume. The self-built stack uses a different Compose project and the explicit `darkeden_selfbuilt_world` volume.
 
-The image compiles `loginserver`, `sharedserver`, and `gameserver` from the checkout with the existing C++11 setting. It uses Ubuntu 20.04 as both the build and runtime base and retains the current MySQL 5.7 configuration, resource files, server configs, and startup order. It publishes the configured client ports: 9999/TCP, 9998/TCP, 9996/UDP, and 9997/UDP. `sharedserver` TCP 9977 stays internal: the game config connects to `127.0.0.1:9977` because all three server processes share one container network namespace.
+The image compiles `loginserver`, `sharedserver`, and `gameserver` from the checkout with the existing C++11 setting. It uses Ubuntu 20.04 for the engine build/runtime and Python 3.12.8-slim-bookworm for the separate content build stage. It retains the current MySQL 5.7 configuration, resources, server configs, and startup order. It publishes the configured client ports: 9999/TCP, 9998/TCP, 9996/UDP, and 9997/UDP. `sharedserver` TCP 9977 stays internal: the game config connects to `127.0.0.1:9977` because all three server processes share one container network namespace.
+
+Treasure loot is authored as JSON and compiled into the existing binary resource format in an isolated Docker build stage. See [`content/README.md`](../content/README.md) for the content-only workflow, ID validation, fixture checks, and JSON editing steps. Content changes do not invalidate the cached C++ compilation stage.
 
 ## Build
 
@@ -18,7 +20,7 @@ sed -i 's/^DARKEDEN_IP=.*/DARKEDEN_IP=192.168.1.20/; s/^DARKEDEN_BIND=.*/DARKEDE
 ./standalone/build-selfbuilt.sh
 ```
 
-The script writes a timestamped diagnostic log under `standalone/build-logs/` and tags the result `darkeden-selfbuilt:local`. It records the Git revision, hashes of the source/resource/config inputs and tracked patches, compiler/CMake and package versions, and the built image labels. The example `.env.selfbuilt` and build logs are excluded from Git. The clone and build context are about 50 MB before build artifacts; reserve roughly 2–3 GB of free Docker storage for base images, compiler layers, and the MySQL test image. Actual usage depends on the existing Docker cache.
+The script writes a timestamped diagnostic log under `standalone/build-logs/` and tags the result `darkeden-selfbuilt:local`. It records the Git revision, hashes of the source/resource/config inputs and tracked patches, compiler/CMake and package versions, and the built image labels. The example `.env.selfbuilt` and build logs are excluded from Git. The source checkout is about 190 MB before build artifacts, including readable treasure JSON and original regression fixtures; the fixtures are excluded from the Docker build context. Reserve roughly 2–3 GB of free Docker storage for base images, compiler layers, and the MySQL test image. Actual usage depends on the existing Docker cache.
 
 Ubuntu's package repositories can update over time. This pipeline records the versions actually used; for a later fully pinned rebuild, set `DARKEDEN_UBUNTU_BASE_IMAGE` to a tested immutable Ubuntu image digest and pin the apt package versions from the build manifest.
 

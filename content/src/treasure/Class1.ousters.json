@@ -1,0 +1,1277 @@
+{
+  "$schema": "../../schema/treasure.schema.json",
+  "format": "darkeden-treasure",
+  "schema_version": 1,
+  "source_file": "Class1.ousters.bin",
+  "treasures": [
+    {
+      "item_chance": 40000,
+      "option_chance": 40000,
+      "item_classes": [
+        {
+          "id": 59,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Tou Chakram"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 5000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 5000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Perv Chakram"
+            }
+          ],
+          "label": "OUSTERS_CHAKRAM"
+        },
+        {
+          "id": 65,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Natural Wristlet"
+            },
+            {
+              "type_id": 1,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Vine Wristlet"
+            }
+          ],
+          "label": "OUSTERS_WRISTLET"
+        },
+        {
+          "id": 65,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 10,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Natural Wristlet"
+            },
+            {
+              "type_id": 11,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Vine Wristlet"
+            }
+          ],
+          "label": "OUSTERS_WRISTLET"
+        },
+        {
+          "id": 65,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 20,
+              "weight": 70000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Natural Wristlet"
+            },
+            {
+              "type_id": 21,
+              "weight": 30000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 10000,
+                  "label": "DUR+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 10000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Vine Wristlet"
+            }
+          ],
+          "label": "OUSTERS_WRISTLET"
+        },
+        {
+          "id": 61,
+          "weight": 9000,
+          "items": [],
+          "label": "OUSTERS_COAT"
+        },
+        {
+          "id": 58,
+          "weight": 9000,
+          "items": [],
+          "label": "OUSTERS_BOOTS"
+        },
+        {
+          "id": 57,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Wood Armsband"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 12000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 12000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 12000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 12000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 12000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 14000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 14000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 58,
+                  "weight": 12000,
+                  "label": "DUR+1"
+                }
+              ],
+              "label": "Ayurvedic Armsband"
+            }
+          ],
+          "label": "OUSTERS_ARMSBAND"
+        },
+        {
+          "id": 60,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Silver Circlet"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Circlet of Full Moon"
+            }
+          ],
+          "label": "OUSTERS_CIRCLET"
+        },
+        {
+          "id": 62,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Revers Dot Pendent"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Orissa Pendent"
+            }
+          ],
+          "label": "OUSTERS_PENDENT"
+        },
+        {
+          "id": 63,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 80000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Hemp's Ring"
+            },
+            {
+              "type_id": 1,
+              "weight": 20000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Celesta Ring"
+            }
+          ],
+          "label": "OUSTERS_RING"
+        },
+        {
+          "id": 64,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 100000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Fire ElementalStone 1"
+            }
+          ],
+          "label": "OUSTERS_STONE"
+        },
+        {
+          "id": 64,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 5,
+              "weight": 100000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Water ElementalStone 1"
+            }
+          ],
+          "label": "OUSTERS_STONE"
+        },
+        {
+          "id": 64,
+          "weight": 3000,
+          "items": [
+            {
+              "type_id": 10,
+              "weight": 100000,
+              "options": [
+                {
+                  "id": 1,
+                  "weight": 8000,
+                  "label": "STR+1"
+                },
+                {
+                  "id": 6,
+                  "weight": 8000,
+                  "label": "DEX+1"
+                },
+                {
+                  "id": 11,
+                  "weight": 8000,
+                  "label": "INT+1"
+                },
+                {
+                  "id": 16,
+                  "weight": 8000,
+                  "label": "HP+1"
+                },
+                {
+                  "id": 21,
+                  "weight": 8000,
+                  "label": "MP+1"
+                },
+                {
+                  "id": 38,
+                  "weight": 10000,
+                  "label": "TOHIT+1"
+                },
+                {
+                  "id": 43,
+                  "weight": 8000,
+                  "label": "DEF+1"
+                },
+                {
+                  "id": 48,
+                  "weight": 6000,
+                  "label": "DAM+1"
+                },
+                {
+                  "id": 53,
+                  "weight": 8000,
+                  "label": "PRO+1"
+                },
+                {
+                  "id": 75,
+                  "weight": 10000,
+                  "label": "VIS+1"
+                },
+                {
+                  "id": 78,
+                  "weight": 10000,
+                  "label": "ASPD+1"
+                },
+                {
+                  "id": 83,
+                  "weight": 8000,
+                  "label": "CRI+1"
+                }
+              ],
+              "label": "Earth ElementalStone 1"
+            }
+          ],
+          "label": "OUSTERS_STONE"
+        },
+        {
+          "id": 66,
+          "weight": 9000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 100000,
+              "options": [],
+              "label": "Green Larva"
+            }
+          ],
+          "label": "LARVA"
+        },
+        {
+          "id": 67,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 100000,
+              "options": [],
+              "label": "Green Pupa"
+            }
+          ],
+          "label": "PUPA"
+        },
+        {
+          "id": 68,
+          "weight": 5000,
+          "items": [
+            {
+              "type_id": 0,
+              "weight": 100000,
+              "options": [],
+              "label": "Green Mei"
+            }
+          ],
+          "label": "COMPOS_MEI"
+        },
+        {
+          "id": 41,
+          "weight": 0,
+          "items": [],
+          "label": "EVENT_STAR"
+        },
+        {
+          "id": 69,
+          "weight": 0,
+          "items": [],
+          "label": "OUSTERS_SUMMON_ITEM"
+        }
+      ]
+    }
+  ]
+}

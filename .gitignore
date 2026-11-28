@@ -13,6 +13,8 @@ build/
 *~
 .DS_Store
 .clang-format-backup
+__pycache__/
+*.py[cod]
 
 # CMake
 CMakeCache.txt
